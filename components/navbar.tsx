@@ -8,7 +8,7 @@ export function Navbar() {
   const pathname = usePathname()
 
   return (
-    <View className="absolute bottom-0 flex w-full flex-row justify-around border-t border-zinc-900 p-4 pb-8">
+    <View className="absolute bottom-0 flex w-full flex-row justify-around border-t border-zinc-900 bg-zinc-900 p-4 pb-8">
       <Button
         variant="link"
         onPress={() => router.navigate({ pathname: '/home' })}>
